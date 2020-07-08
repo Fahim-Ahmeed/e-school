@@ -8,33 +8,207 @@
     <link rel="stylesheet" href="assests/css/style.css">
 </head>
 <body>
-    <div class="container" id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="assests/images/ICON/Logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#books">Books</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#courses">Courses</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#others">Others</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#blog">Blog</a>
-                  </li>
-                  <li class="nav-item active">
-                      <a class="nav-link" href="#sign-in"><span id="sign-in">Sign in</span></a>
+     
+
+
+
+    <div class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="assests/images/ICON/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#books">Books<span class="sr-only">(current)</span></a>
                     </li>
-                </ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item sign-in-button">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+            <!-- nav item finish -->
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center">
+                        <div>
+                            <p class="red">Are you ready to Learn?</p>
+                            <h1>Learn With fun <br>
+                                on <span class="gre-box">any schedule</span>
+                            </h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur <br>  adipiscing elit. Varius blandit facilisis quam netus.</p>
+                            <button class="buy-now-button">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 d-flex align-items-center">
+                        <img class="illustration" src="assests/images/Photos/Illustration.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
     </div>
+    <!-- wrapper item over -->
+    <div class="container wrapper" id="books">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="box text-center">
+                    <div class="image-box">
+                        <img class="icon" src="assests/images/ICON/book.png" alt="">
+                    </div>
+                    <div>
+                        <h3>1500+ Topic</h3>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box text-center activ">
+                    <div class="image-box">
+                        <img class="icon" src="assests/images/ICON/Students.png" alt="">
+                    </div>
+                    <div>
+                        <h3>1800+ Students</h3>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box text-center">
+                    <div class="image-box">
+                        <img class="icon" src="assests/images/ICON/Test.png" alt="">
+                    </div>
+                    <div>
+                        <h3>9K+ Test Token</h3>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box text-center">
+                    <div class="image-box">
+                        <img class="icon" src="assests/images/ICON/Student.png" alt="">
+                    </div>
+                    <div>
+                        <h3>2000+ Student</h3>
+                        <p>Learn Anythings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container wrapper finish -->
+    <div class="container wrapper" id="courses">
+        <h2>Online Courses</h2>
+        <div class="card-deck">
+            <div class="card">
+              <img src="assests/images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mordern Pyschology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buy-now-button">Buy Course >></button>
+                <div class="block d-flex align-items-center">
+                    <img class="icons-course" src="assests/images/ICON/calendar.png" alt="">
+                    <p class="start-p">Start 20  April, 2021</p>
+                    <img class="icons-course course" src="assests/images/ICON/people.png" alt="">
+                    <p class="start-p">60 Seats</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assests/images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Morder Pyschology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buy-now-button">Buy Course >></button>
+                <div class="block d-flex align-items-center">
+                    <img class="icons-course" src="assests/images/ICON/calendar.png" alt="">
+                    <p class="start-p">Start 20  April, 2021</p>
+                    <img class="icons-course course" src="assests/images/ICON/people.png" alt="">
+                    <p class="start-p">60 Seats</p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assests/images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Morder Pyschology</h5>
+                <p class="card-text">Designation</p>
+                <button class="buy-now-button">Buy Course >></button>
+                <div class="block d-flex align-items-center">
+                    <img class="icons-course" src="assests/images/ICON/calendar.png" alt="">
+                    <p class="start-p align-items-center">Start 20  April, 2021</p>
+                    <img class="icons-course course" src="assests/images/ICON/people.png" alt="">
+                    <p class="start-p ">60 Seats</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- courses item finish -->
+    </div>
+    <div class="container wrapper" id="testimonial">
+        <h2>Testimonial</h2>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-12 d-flex align-items-center testimonial justify-content-center">
+                <img src="assests/images/Photos/Man.png" alt="">
+                <p class="wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere delectus quo nesciunt et officia ad modi soluta alias corporis illo eveniet, possimus reiciendis, animi veritatis aperiam hic dolore obcaecati!</p>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial item finish -->
+    <footer id="blog">
+        <div class="container wrapper">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-6 d">
+                    <p class="align-items-center footer-p wrapper">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque reprehenderit quo ratione.</p>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 wrapper footer-section">
+                    <ul>
+                        <li class="courses-li">Courses</li>
+                        <li>Graphics Design</li>
+                        <li>Web Design</li>
+                        <li>Business</li>
+                        <li>Marketing</li>
+                        <li>Engineering</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 wrapper footer-section">
+                    <ul>
+                        <li class="courses-li">Terms</li>
+                        <li>Graphics Design</li>
+                        <li>Web Design</li>
+                        <li>Business</li>
+                        <li>Marketing</li>
+                        <li>Engineering</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-6 wrapper footer-section">
+                    <ul>
+                        <li class="courses-li">Useful Link</li>
+                        <li>Graphics Design</li>
+                        <li>Web Design</li>
+                        <li>Business</li>
+                        <li>Marketing</li>
+                        <li>Engineering</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 50px; color: white;"> ©Copyright 2020.Fahim Ahmed @ programming hero</p>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
